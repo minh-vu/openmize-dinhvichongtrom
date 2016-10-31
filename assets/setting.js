@@ -2,15 +2,23 @@
 var Page = {
     //-- de trong "" de giu nguyen default text
     logoText: "Openmize ",
-    subHeading: "Openmize | Bóng đèn đuổi muỗi chất lượng cao",
-    mainHeading: "OpenMize là nhà cung cấp bóng đèn đuổi muỗi chất lượng cao cho mọi gia đình",
+    subHeading: "Có nên lắp khóa chống trộm? Hãy chọn định vị và khóa an toàn",
+    mainHeading: "Định vị chống trộm xe máy hiệu quả nhất",
     CTA: "Xem sản phẩm của chúng tôi",
-    brief: "Sản phẩm bóng đèn đuổi muỗi của chúng tôi xuất khẩu sang châu Âu và được nhiều thị trường khó tính chấp nhận: Đức, Pháp, Úc, Mỹ…",
+    brief: "Chuyên phân phối, định vị chống trộm xe máy, khóa chống trộm xe máy chất lượng tốt nhất so với các sản phẩm giá rẻ khác",
 
     // ============= VARS ==============
-    url : "http://www.openmize.top/", //-- co slash cuoi /
-    mainkeyWord : "bóng đèn đuổi muổi",
-    longkeyWords : ["bóng đèn đuổi muỗi","muỗi zika"],
+    url : "http://www.openmize.com/", //-- co slash cuoi /
+    mainkeyWord : "định vị chống trộm xe máy",
+    longkeyWords : [
+        "chống trộm xe máy bằng công nghệ định vị",
+        "khóa chống trộm xe máy định vị gps",
+        "bộ chống trộm xe máy giá rẻ",
+        "chống trộm xe máy tốt nhất",
+        "khóa chống trộm tốt nhất cho xe máy",
+        "chống trộm xe máy hiệu quả nhất",
+        "chống trộm xe máy bằng remote",
+    ],
     facebookAppId : "303370230021409", //-- your appID
     googleAnalyticId : "UA-82197343-2", //-- your id
     formId: "https://docs.google.com/forms/d/e/1FAIpQLScjBXL-M0eRB0qhX1xSV5sWWAwsXbNqtjAGm3aq0-l5EZAisg/viewform?embedded=true",
@@ -35,7 +43,7 @@ var colors = [
     "brown", "grey", "blue-grey"      // 16 17 18 19
 ];
 
-colors = ['red']
+colors = ['orange']
 var i = Math.floor( Math.random() * (colors.length - 0) + 0 );
 var chooseColor = colors[i].toString();
 
